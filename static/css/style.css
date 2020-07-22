@@ -1,0 +1,84 @@
+.footer {
+  background-color: #c6c8ca;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #6c757d;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github {
+  background: #24292e;
+  color: white;
+}
+
+
+.info-list-titles{
+  text-align: left;
+}
+
+.info-list-values{
+  text-align: left;
+}
+
+.header-ensar{
+  display: inline-block;
+  text-align: center;
+}
+
+.card-lower{
+  background: #6c757d;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.card-upper{
+  background: #1b89ff;
+  border-top-right-radius: 24px;
+}
+
+.photo-bg{
+  background: #1b89ff;
+  border-top-left-radius: 24px;
+}
+
+.photo{
+  height: 80%;
+  width: 70%;
+  border-radius: 24px;
+  border-color: white;
+  border-style: solid;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.card-title1{
+  font-size: 3.2em;
+}
+
+.copyright{
+  font-size: 0.8em;
+}
