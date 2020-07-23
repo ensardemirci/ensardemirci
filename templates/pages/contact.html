@@ -1,9 +1,19 @@
 {% extends 'layout.html' %}
 
+
 {% block content %}
 
-    <div class="container">
-        <h1> İletişim </h1>
-    </div>
+<div class="container">
+
+<h2>Contact Us</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit" />
+</form>
+
+</div>
+
+
 
 {% endblock %}
