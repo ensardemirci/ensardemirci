@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BTKAkademi/26 - Django/catalog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -86,7 +86,7 @@
       <workItem from="1593744558110" duration="3374000" />
       <workItem from="1595213240572" duration="20396000" />
       <workItem from="1595408416417" duration="5713000" />
-      <workItem from="1595488076888" duration="4029000" />
+      <workItem from="1595488076888" duration="15936000" />
     </task>
     <servers />
   </component>
@@ -98,11 +98,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593674990995" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1595231361141">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1595501120374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593744805504" />
-    <state x="740" y="274" key="FileChooserDialogImpl/1920.104.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1595231361141" />
+    <state x="740" y="274" key="FileChooserDialogImpl/1920.104.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1595501120374" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1595429175625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

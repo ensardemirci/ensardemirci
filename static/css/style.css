@@ -82,3 +82,24 @@
 .copyright{
   font-size: 0.8em;
 }
+
+.labellist{
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.formbutton{
+  border-style: solid;
+  border-color: #1b89ff;
+  font-weight: bold;
+  background-color: #d6e1ff;
+  color: #1b89ff;
+  width: 120px;
+  float: right ;
+  margin-right: 10px;
+}
+
+.formbutton:hover{
+  opacity: 70%;
+  cursor: pointer;
+}

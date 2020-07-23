@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'pages.apps.PagesConfig',
+    'captcha',
 ]
 
 MIDDLEWARE = [
@@ -126,4 +127,13 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_USER = "ensardemirci93@gmail.com"
+EMAIL_HOST_PASSWORD = 'btipcfjwzqgnidxs'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+
+

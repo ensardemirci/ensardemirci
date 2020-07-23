@@ -3,15 +3,35 @@
 
 {% block content %}
 
-<div class="container">
+<div class="container" style="max-width: 900px">
+<div class="row">
+    <div class="contactinfo col-sm-4 col-md-4 col-lg-4">
+    Deneme
+    </div>
 
-<h2>Contact Us</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Submit" />
-</form>
+    <div class="contactformlabel col-sm-3 col-md-3 col-lg-3">
+        <form method="post" class="formlabel">
+            {% csrf_token %}
+            <ul class="labellist list-group">
+                <li class="list-group-item border-0">{{form.name.label_tag}}</li>
+                <li class="list-group-item border-0">{{form.email.label_tag}}</li>
+                <li class="list-group-item border-0">{{form.message.label_tag}}</li>
+            </ul>
+        </form>
+    </div>
 
+    <div class="contactforminput col-sm-5 col-md-5 col-lg-5">
+        <form method="post" class="formlabel">
+            {% csrf_token %}
+            <ul class="inputlist list-group">
+                <li class="list-group-item border-0">{{form.name}}</li>
+                <li class="list-group-item border-0">{{form.email}}</li>
+                <li class="list-group-item border-0">{{form.message}}</li>
+            </ul>
+            <input class="formbutton" type="submit" value="Gönder" />
+        </form>
+    </div>
+</div>
 </div>
 
 

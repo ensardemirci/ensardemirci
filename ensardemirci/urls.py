@@ -21,5 +21,7 @@ urlpatterns = [
 
     path('', include('pages.urls')),
 
+    path(r'captcha/', include('captcha.urls'))
+
 
 ]

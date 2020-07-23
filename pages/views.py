@@ -2,7 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .forms import ContactForm
 from django.core.mail import send_mail
-
+from django.contrib import messages
+import captcha
 # Create your views here.
 
 def index(request):
@@ -25,11 +26,11 @@ def contact_us(request):
             sender_email = form.cleaned_data['email']
 
             message = f'İsim : {sender_name} Mesaj : {form.cleaned_data["message"]}'
-            send_mail('ed.com Yeni Mesaj', message, sender_email, ['ensardemirci93@gmail.com'])
-            return HttpResponse('Teşekkürler Mesajınız Alındı')
+            send_mail(subject=f'ensardemirci.com İletişim - {sender_email} ', message=message, from_email=sender_email, recipient_list=['ensardemirci93@gmail.com'])
+            messages.add_message(request, messages.SUCCESS, ('Mesaj Gönderildi.'))
+            return render(request, 'pages/contact.html', {'form': form})
     else:
         form = ContactForm()
-    return render(request,'pages/contact.html',{'form': form})
-
+    return render(request, 'pages/contact.html', {'form': form})
 
 
